@@ -8,3 +8,8 @@ Pre-requists
 
 Runnning K8s cluster
 Kubectl
+
+---------------------------------------------------
+kubectl exec -it mysql-client -- bash
+mysql -h mysql -u $MYSQL_USER -p$MYSQL_PASSWORD
+
